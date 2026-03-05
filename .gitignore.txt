@@ -1,0 +1,10 @@
+.vs/
+*.suo
+*.user
+*.db
+*.VC.db
+Debug/
+Release/
+x64/
+*.obj
+*.pch

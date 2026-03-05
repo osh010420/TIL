@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\TIL\\C\u002B\u002B\\CodeCata\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59A303B7-BB72-4E2F-BD99-F908D23AB101}|C1\\C1.vcxproj|C:\\TIL\\C\u002B\u002B\\CodeCata\\C1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{59A303B7-BB72-4E2F-BD99-F908D23AB101}|C1\\C1.vcxproj|solutionrelative:C1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FE4793AF-ED58-48AF-AE9A-52A4F53B6D45}|C2\\C2.vcxproj|C:\\TIL\\C\u002B\u002B\\CodeCata\\C2\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FE4793AF-ED58-48AF-AE9A-52A4F53B6D45}|C2\\C2.vcxproj|solutionrelative:C2\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +14,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\TIL\\C\u002B\u002B\\CodeCata\\C1\\main.c",
-              "RelativeDocumentMoniker": "C1\\main.c",
-              "ToolTip": "C:\\TIL\\C\u002B\u002B\\CodeCata\\C1\\main.c",
-              "RelativeToolTip": "C1\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\TIL\\C\u002B\u002B\\CodeCata\\C2\\main.c",
+              "RelativeDocumentMoniker": "C2\\main.c",
+              "ToolTip": "C:\\TIL\\C\u002B\u002B\\CodeCata\\C2\\main.c",
+              "RelativeToolTip": "C2\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-05T00:14:42.21Z",
+              "WhenOpened": "2026-03-05T00:37:46.608Z",
               "EditorCaption": ""
             }
           ]
