@@ -5,4 +5,10 @@
   </Configurations>
   <Project Path="C1/C1.vcxproj" Id="59a303b7-bb72-4e2f-bd99-f908d23ab101" />
   <Project Path="C2/C2.vcxproj" Id="fe4793af-ed58-48af-ae9a-52a4f53b6d45" />
+  <Project Path="C3/C3.vcxproj" Id="7dec995d-f0ec-4695-8cc0-70e1f4d8b46a" />
+  <Project Path="C4/C4.vcxproj" Id="e444cb2a-0706-4f71-85a3-ecbb969bab93" />
+  <Project Path="C5/C5.vcxproj" Id="52a865fc-3cb4-41a6-8822-66c019b3430a" />
+  <Project Path="C6/C6.vcxproj" Id="1a5947d5-f0db-450c-93fb-66324accb265" />
+  <Project Path="C7/C7.vcxproj" Id="bcd5d034-6062-4060-9b2a-18642331fe9f" />
+  <Project Path="C8/C8.vcxproj" Id="fe25f4cb-878c-4a9a-bbf0-b7e19105e514" />
 </Solution>
