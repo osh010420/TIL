@@ -1,28 +1,32 @@
-
 #include <iostream>
-
+#include <string>
 using namespace std;
 
-//아래 3개의 함수를 하나의 템플릿 함수로 통합하세요
-template <typename T>
-T add(T a, T b) {
-    return a + b;
-}
+//class Player{
+//	string name;
+//	int hp;
+//public:
+//	void setName(string name)
+//	{
+//		this->name = name;
+//	}
+//
+//	void setHp(int HP)
+//	{
+//		hp = HP;
+//	}
+//
+//	string getInfo()
+//	{
+//		return "player : " + name + "\nHP : " + to_string(hp);
+//	}
+//};
+
+class Monster {
+	string name;
+	int hp;
+	int attack;
+public:
 
 
-//아래 테스트 코드는 변역하지 마세요
-int main() {
-    // 정수 더하기
-    cout << "3 + 5 = " << add(3, 5) << endl;
-
-    // 실수 더하기
-    cout << "2.5 + 4.3 = " << add(2.5, 4.3) << endl;
-
-    // 문자열 합치기
-    cout << "\"Hello, \" + \"World!\" = " << add(string("Hello, "), string("World!")) << endl;
-
-    // 아래 코드는 컴파일 에러가 발생해야 함
-    // cout << add(true, false) << endl;
-
-    return 0;
-}
+};

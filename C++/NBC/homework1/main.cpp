@@ -10,6 +10,11 @@ void setPotion(int count, int* p_HPPotion, int* p_MPPotion)
 	*p_MPPotion = count;
 }
 
+void getPotion(int* p_HPPotion, int* p_MPPotion)
+{
+	cout << "HP 포션 획득!\n현재 보유 개수 : " << ++*p_HPPotion << endl;
+	cout << "MP 포션 획득!\n현재 보유 개수 :  " << ++*p_MPPotion << endl;
+}
 
 int main()
 {
@@ -45,6 +50,7 @@ int main()
 	cout << "* 포션이 지급되었습니다. (HP, MP 포션 각 5개)" << endl
 		<< "=======================================" << endl;
 
+	int level = 1;
 	int choose = 0;
 	int Att = status[2];
 	int Def = status[3];
@@ -89,11 +95,14 @@ int main()
 				Def *= 2;
 				break;
 			case 5:
-				cout << "HP : " << status[0] << endl << "MP : " << status[1] << endl
-					<< "공격력 : " << Att << endl << "방어력 : " << Def << endl;
+				cout << "Level : " << level << "\nHP : " << status[0]  << "\nMP : " << status[1]
+					<< "\n공격력 : " << Att  << "\n방어력 : " << Def << "\nHP Potion : " << HPPotion
+					<< "\nMP Potion : " << MPPotion << endl;
 				break;
 			case 6:
-				cout << "레벨 업! 포션을 하나씩 획득합니다." << ++HPPotion << ++MPPotion << endl;
+				cout << "레벨 업! 포션을 하나씩 획득합니다." << endl;
+				++level;
+				getPotion(&HPPotion, &MPPotion);
 				break;
 			default:
 				break;
